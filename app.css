@@ -1,0 +1,61 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    background-image: url(https://media.istockphoto.com/id/528415533/vector/emoticon-with-tears-of-joy.jpg?s=612x612&w=0&k=20&c=zt919iGd1ZSJ2kFU0g676iVKLamUXMSjMD2s-NkV8_c=);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin: 10px;
+  }
+  
+  #memeContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .meme-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .meme-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(247, 241, 241);
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  .meme-text-top {
+    top: 10px;
+  }
+  
+  .meme-text-bottom {
+    bottom: 10px;
+  }
+  
