@@ -28,5 +28,10 @@ const createMeme = (event) => {
     memeContainer.appendChild(meme);
 };
 
+const clearForm = () => {
+    document.getElementById('memeForm').reset();
+    document.getElementById('memeContainer').innerHTML = '';
+};
+
 const memeForm = document.getElementById('memeForm');
 memeForm.addEventListener('submit', createMeme);
